@@ -44,7 +44,7 @@ public class Test {
         EmployeeExample.Criteria employeeExampleCriteria = employeeExample.createCriteria();
         // 插入 1000 条员工数据
         //123master test
-        //456654
+        //456654hot-fix test
         for (int i = 0; i < 1000; i++) {
             String uuid = UUID.randomUUID().toString().substring(0,8);
             int d_id = new Random().nextInt(4) + 1;
